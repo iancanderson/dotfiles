@@ -1,0 +1,11 @@
+# Homebrew
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+
+## Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+# autojump
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
