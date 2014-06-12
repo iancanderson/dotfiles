@@ -1,0 +1,2 @@
+EXCLUDES="README.md LICENSE Brewfile"
+DOTFILES_DIRS="$HOME/code/iancanderson/dotfiles $HOME/code/thoughtbot/dotfiles"
