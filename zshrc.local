@@ -1,6 +1,9 @@
 # Homebrew
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
+# Don't let /usr/local/bin/rspec, etc. mask the springified binstub for the project
+export PATH=".git/safe/../../bin:$PATH"
+
 ## Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
