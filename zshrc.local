@@ -9,3 +9,9 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+
+# For Haskell stuff
+export PATH="$HOME/.cabal/bin:./.cabal-sandbox/bin:$PATH"
+
+# For paperback ebook generation
+export PATH="$PATH:/usr/texbin"
