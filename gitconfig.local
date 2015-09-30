@@ -1,5 +1,5 @@
 [user]
   name = Ian C. Anderson
-  email = ian@redheadedlabs.com
+  email = ian@iancanderson.com
 [alias]
   psed = !sh -c 'git grep --null --full-name --name-only --perl-regexp -e \"$1\" | xargs -0 perl -i -p -e \"s/$1/$2/g\"' -
