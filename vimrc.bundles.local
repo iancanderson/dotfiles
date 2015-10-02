@@ -1,2 +1,2 @@
-Bundle 'jgdavey/tslime.vim'
-Bundle 'christoomey/vim-tmux-navigator'
+Plug 'jgdavey/tslime.vim'
+Plug 'christoomey/vim-tmux-navigator'
