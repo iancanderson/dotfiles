@@ -3,11 +3,11 @@
 brew_tap "caskroom/cask"
 brew_install_or_upgrade "brew-cask"
 
-brew cask install backblaze-downloader
+brew cask install backblaze
 brew cask install dropbox
 brew cask install firefox
 brew cask install flux
-brew cask install gitx-rowanj
+brew cask install rowanj-gitx
 brew cask install google-chrome
 brew cask install hazel
 brew cask install omnifocus

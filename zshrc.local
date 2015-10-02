@@ -15,3 +15,6 @@ export PATH="$HOME/.cabal/bin:./.cabal-sandbox/bin:$PATH"
 
 # For paperback ebook generation
 export PATH="$PATH:/usr/texbin"
+
+export PATH="$HOME/.bin:$PATH"
+eval "$(rbenv init - --no-rehash zsh)"
