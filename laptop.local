@@ -1,0 +1,19 @@
+#!/bin/sh
+
+brew_tap "caskroom/cask"
+brew_install_or_upgrade "brew-cask"
+
+brew cask install backblaze-downloader
+brew cask install dropbox
+brew cask install firefox
+brew cask install flux
+brew cask install gitx-rowanj
+brew cask install google-chrome
+brew cask install hazel
+brew cask install omnifocus
+brew cask install scansnap-manager
+brew cask install spectacle
+
+gem_install_or_update "parity"
+
+brew_install_or_upgrade "tree"
