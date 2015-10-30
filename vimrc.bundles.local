@@ -1,3 +1,4 @@
-Plug 'jgdavey/tslime.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'elixir-lang/vim-elixir'
+Plug 'ag.vim'
+Plug 'BlakeWilliams/vim-tbro'

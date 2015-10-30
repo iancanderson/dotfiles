@@ -1,3 +1,12 @@
 " vim-rspec settings
 nnoremap <Leader>a :call RunAllSpecs()<CR>
-let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+
+" Send arbitrary commands to tbro quickly
+nnoremap ! :Tbro
+
+" Resend the last command
+nnoremap !! :TbroRedo<cr>
+
+" Use tbro with vim-rspec
+let g:rspec_command = "Tbro rspec {spec}"
+let g:tbro_pane = 2
