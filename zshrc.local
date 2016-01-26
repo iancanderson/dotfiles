@@ -17,3 +17,7 @@ export PATH="$HOME/.cabal/bin:./.cabal-sandbox/bin:$PATH"
 export PATH="$PATH:/usr/texbin"
 
 export PATH="$HOME/.bin:$PATH"
+
+# NVM stuff
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
