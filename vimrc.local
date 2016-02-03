@@ -10,3 +10,9 @@ nnoremap !! :TbroRedo<cr>
 " Use tbro with vim-rspec
 let g:rspec_command = "Tbro rspec {spec}"
 let g:tbro_pane = 2
+
+autocmd BufRead,BufNewFile *.es6 setfiletype javascript
+
+let g:syntastic_javascript_checkers = ['eslint']
+
+set clipboard=unnamed
