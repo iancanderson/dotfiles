@@ -7,9 +7,15 @@ nnoremap ! :Tbro
 " Resend the last command
 nnoremap !! :TbroRedo<cr>
 
-" Use tbro with vim-rspec
-let g:rspec_command = "Tbro rspec {spec}"
+" Use tbro with vim-test
 let g:tbro_pane = 2
+
+function! TbroStrategy(cmd)
+  execute 'Tbro ' . a:cmd
+endfunction
+
+let g:test#custom_strategies = {'tbro': function('TbroStrategy')}
+let g:test#strategy = 'tbro'
 
 autocmd BufRead,BufNewFile *.es6 setfiletype javascript
 
