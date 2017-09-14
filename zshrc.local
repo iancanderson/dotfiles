@@ -18,6 +18,14 @@ export PATH="$PATH:/usr/texbin"
 
 export PATH="$HOME/.bin:$PATH"
 
-# NVM stuff
+# JS dev
 export NVM_DIR=~/.nvm
-source $(brew --prefix nvm)/nvm.sh
+. "/usr/local/opt/nvm/nvm.sh"
+
+# Android dev
+export ANDROID_HOME=${HOME}/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+# Markdown
+alias marked="open -a Marked\ 2"
