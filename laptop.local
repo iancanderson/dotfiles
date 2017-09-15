@@ -1,9 +1,9 @@
 #!/bin/sh
 
 brew cask install backblaze
+brew cask install dash
 brew cask install dropbox
 brew cask install firefox
 brew cask install google-chrome
 brew cask install omnifocus
-brew cask install slack
 brew cask install spectacle
