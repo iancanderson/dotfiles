@@ -14,3 +14,7 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 # Markdown
 alias marked="open -a Marked\ 2"
+
+# ASDF version manager
+export PATH="$HOME/.bin:$PATH"
+source /Users/ian/.asdf/asdf.sh
