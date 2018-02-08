@@ -2,7 +2,7 @@
   name = Ian C. Anderson
   email = ian@iancanderson.com
 [alias]
-  psed = !sh -c 'git grep --null --full-name --name-only --perl-regexp -e \"$1\" | xargs -0 perl -i -p -e \"s/$1/$2/g\"' -
   aap = !git add --all --intent-to-add && git add --patch
+  copysha = !git show --format="%H" -s | pbcopy
 [heroku]
   account = tb

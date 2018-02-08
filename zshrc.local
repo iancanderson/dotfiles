@@ -18,3 +18,6 @@ alias marked="open -a Marked\ 2"
 # ASDF version manager
 export PATH="$HOME/.bin:$PATH"
 source /Users/ian/.asdf/asdf.sh
+
+# QT
+export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
