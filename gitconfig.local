@@ -4,5 +4,7 @@
 [alias]
   aap = !git add --all --intent-to-add && git add --patch
   copysha = !git show --format="%H" -s | pbcopy
-[heroku]
-  account = tb
+[github]
+	user = iancanderson
+[credential]
+	helper = osxkeychain
