@@ -5,7 +5,9 @@ tap "homebrew/services"
 tap "github/bootstrap"
 tap "caskroom/cask"
 cask "java"
+brew "ctags"
 brew "elasticsearch@2.4", restart_service: true
+brew "hub"
 brew "imagemagick"
 brew "jq"
 brew "memcached", restart_service: true
