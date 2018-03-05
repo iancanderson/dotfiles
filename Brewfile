@@ -11,6 +11,7 @@ brew "jq"
 brew "memcached", restart_service: true
 brew "mysql", restart_service: true
 brew "nginx", restart_service: true
+brew "reattach-to-user-namespace"
 brew "redis", restart_service: true
 brew "tmux"
 brew "thoughtbot/formulae/rcm"
