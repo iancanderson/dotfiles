@@ -7,6 +7,7 @@ tap "caskroom/cask"
 cask "alfred"
 cask "dash"
 cask "java"
+cask "licecap"
 brew "ag"
 brew "ctags"
 brew "elasticsearch@2.4", restart_service: true
@@ -20,6 +21,7 @@ brew "reattach-to-user-namespace"
 brew "redis", restart_service: true
 brew "tmux"
 brew "thoughtbot/formulae/rcm"
+brew "vim"
 mas "1Password", id: 443987910
 mas "Airmail 3", id: 918858936
 mas "Keynote", id: 409183694
