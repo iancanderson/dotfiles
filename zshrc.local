@@ -21,3 +21,6 @@ source /Users/ian/.asdf/asdf.sh
 
 # QT
 export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
+
+# So vim-test will consider this a ruby runner
+alias testruby=testrb
