@@ -5,6 +5,7 @@ tap "homebrew/services"
 tap "github/bootstrap"
 tap "caskroom/cask"
 cask "alfred"
+cask "beersmith2"
 cask "dash"
 cask "java"
 cask "licecap"
@@ -21,9 +22,11 @@ brew "reattach-to-user-namespace"
 brew "redis", restart_service: true
 brew "tmux"
 brew "thoughtbot/formulae/rcm"
+brew "tree"
 brew "vim"
 mas "1Password", id: 443987910
 mas "Airmail 3", id: 918858936
+mas "Deliveries", id: 924726344
 mas "Keynote", id: 409183694
 mas "NordVPN", id: 1116599239
 mas "Numbers", id: 409203825
