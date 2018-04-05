@@ -7,7 +7,6 @@ tap "caskroom/cask"
 cask "alfred"
 cask "beersmith2"
 cask "dash"
-cask "java"
 cask "licecap"
 brew "ag"
 brew "ctags"
@@ -32,3 +31,6 @@ mas "NordVPN", id: 1116599239
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Slack", id: 803453959
+
+tap "caskroom/versions"
+cask "java8" unless system "/usr/libexec/java_home --failfast --version 1.8+ &>/dev/null"
