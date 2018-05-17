@@ -9,6 +9,8 @@ cask "beersmith2"
 cask "dash"
 cask "licecap"
 brew "ag"
+brew "asdf"
+brew "carthage"
 brew "ctags"
 brew "elasticsearch@2.4", restart_service: true
 brew "hub"

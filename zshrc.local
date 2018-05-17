@@ -17,10 +17,13 @@ alias marked="open -a Marked\ 2"
 
 # ASDF version manager
 export PATH="$HOME/.bin:$PATH"
-source /Users/ian/.asdf/asdf.sh
+source /usr/local/opt/asdf/asdf.sh
 
 # QT
 export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 
 # So vim-test will consider this a ruby runner
 alias testruby=testrb
+
+# Put repo-specific scripts in the PATH first
+export PATH=".git/safe/../../bin:$PATH"
