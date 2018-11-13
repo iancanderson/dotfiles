@@ -37,3 +37,8 @@ let g:jsx_ext_required = 0
 
 " Disable file limit for Ctrl+P for biiiiig projects
 let g:ctrlp_max_files=0
+
+if executable('rg')
+  set grepprg=rg\ --color=never
+  let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
+endif

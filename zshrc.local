@@ -27,3 +27,6 @@ alias testruby=testrb
 
 # Put repo-specific scripts in the PATH first
 export PATH=".git/safe/../../bin:$PATH"
+
+# Make MySQL binaries available
+# export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"

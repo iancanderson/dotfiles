@@ -6,13 +6,15 @@ tap "github/bootstrap"
 tap "caskroom/cask"
 cask "alfred"
 cask "beersmith2"
+cask "chromedriver"
 cask "dash"
+cask "docker"
 cask "licecap"
-brew "ag"
 brew "asdf"
 brew "carthage"
 brew "ctags"
 brew "elasticsearch@2.4", restart_service: true
+brew "exercism"
 brew "hub"
 brew "imagemagick"
 brew "jq"
@@ -21,10 +23,13 @@ brew "mysql", restart_service: true
 brew "nginx", restart_service: true
 brew "reattach-to-user-namespace"
 brew "redis", restart_service: true
+brew "rg"
 brew "tmux"
 brew "thoughtbot/formulae/rcm"
 brew "tree"
 brew "vim"
+brew "vlc"
+brew "watchman"
 mas "1Password", id: 443987910
 mas "Airmail 3", id: 918858936
 mas "Deliveries", id: 924726344
