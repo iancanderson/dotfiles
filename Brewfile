@@ -10,7 +10,6 @@ cask "chromedriver"
 cask "dash"
 cask "docker"
 cask "licecap"
-brew "asdf"
 brew "carthage"
 brew "ctags"
 brew "elasticsearch@2.4", restart_service: true
